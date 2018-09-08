@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
 
+/******* NAV *******/
 nav {
   background-color: #16313E;
   color: white;
   font-family: 'Roboto', sans-serif;
   padding: 2% 4% 2.5% 4%;
+  height: 5vh;
   border-bottom: 5px solid #5D6630;
 }
 
@@ -23,3 +25,67 @@ nav li {
   font-size: 2em;
   font-weight: bold;
 }
+/******* end NAV *******/
+
+/******* WRAPPER *******/
+#wrapper {
+  font-family: 'Raleway', sans-serif;
+}
+/******* end WRAPPER *******/
+
+/******* HERO *******/
+.hero-section {
+  height: 75vh;
+  padding: 2%;
+  text-align: center;
+  background-image: url("../images/clouds.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 4vh solid #16313E;
+}
+
+.hero-heading {
+  margin-top: 10vh;
+  color: white;
+  font-size: 3em;
+}
+
+.hero-heading span {
+  color: #F6C544;
+}
+
+.hero-subheading {
+  margin-top: 6vh;
+  margin-bottom: 4vh;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.email-input input {
+  height: 40px;
+  width: 30vw;
+  text-align: center;
+  border: none;
+  line-height: 1 !important;
+}
+
+.email-input button {
+  height: 40px;
+  width: 10vw;
+  border: none;
+  background-color: #F6C544;
+  color: white;
+  font-weight: bold;
+  line-height: 1 !important;
+}
+
+.social {
+  margin-top: 15vh;
+}
+
+.social img {
+  width: 50px;
+  padding: 0 15px;
+}
+/******* end HERO *******/
