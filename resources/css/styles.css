@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800|Roboto');
 
 /******* NAV *******/
 nav {
@@ -97,7 +97,35 @@ nav li {
   color: white;
   font-size: 2em;
   line-height: 1.5;
-  font-weight: 900;
   padding: 5% 20%;
 }
 /******* end Info Banner *******/
+
+/******* Portfolio Section *******/
+.portfolio-section {
+  text-align: center;
+  padding: 8% 0 4% 0;
+}
+
+.portfolio-section h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.projects-wrapper {
+  padding: 0 0 0 0;
+}
+
+.projects-wrapper div {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 2%;
+  text-align: left;
+}
+
+.projects-wrapper div h3 {
+  font-weight: 800;
+}
+/******* end Portfolio Section *******/
