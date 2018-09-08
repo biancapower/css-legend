@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+
+nav {
+  background-color: #16313E;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding: 2% 4% 2.5% 4%;
+  border-bottom: 5px solid #5D6630;
+}
+
+nav ul {
+  float: right;
+  text-align: right;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+#nav-logo {
+  font-size: 2em;
+  font-weight: bold;
+}
