@@ -89,3 +89,15 @@ nav li {
   padding: 0 15px;
 }
 /******* end HERO *******/
+
+/******* Info Banner *******/
+.info-banner {
+  text-align: center;
+  background-color: #F6C544;
+  color: white;
+  font-size: 2em;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 5% 20%;
+}
+/******* end Info Banner *******/
